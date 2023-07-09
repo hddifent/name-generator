@@ -6,6 +6,8 @@ ___
 
 Created by Preuk R.
 
-Includes only source codes and assets. Compatable with Unity Engine.
+For use with Unity Engine.
+
+Sound effects are removed. Please open the scene and edit the AudioControl component before attempting to compile.
 
 To display emojis, make sure to set a fall back TextMeshPro Text Asset in Project Setting.
