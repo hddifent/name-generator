@@ -60,6 +60,8 @@ public class NameGen : MonoBehaviour
         for (int i = 0; i < permClueList.Count; i++) { permClueList[i] = permClueList[i].Replace("\\n", "\n"); }
         if (nameList.Count != clueList.Count) { Debug.LogWarning($"Count is not the same.\nName: {nameList.Count}\nClue: {clueList.Count}"); }
 
+        audioControl.allSound.alreadyRicked = false;
+
         nameText.text = "Lucky Star";
         clueText.text = "Who will it be!?";
 
